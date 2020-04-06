@@ -36,6 +36,18 @@ hr{
 p{
   line-height: 2;
 }
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
 .subtitle-main-page{
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
@@ -45,7 +57,6 @@ p{
 }
 
 .top-container{
-  /**background-color: #E4F9F5;**/
   background-color: #EAF6F6;
   position:relative;
   margin: 0 auto 50px auto;
@@ -122,10 +133,10 @@ margin: 100px 0;
  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
  border-radius: 8px;
  color: #AFFFFF;
- font-family: Arial;
+ font-family: 'Montserrat', sans-serif;
  font-size: 15px;
  font-weight: 100;
- padding: 10px;
+ padding: 7px;
  box-shadow: 1px 1px 5px 0px #11999E;
  text-shadow: 1px 1px 5px #666666;
  border: 0;
