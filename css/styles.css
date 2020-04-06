@@ -8,43 +8,40 @@ body{
 h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #66BFBF;
 }
 
 h2{
-  margin: 50 auto 50px auto;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
-  font-weight: normal;
   color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
-p{
-  margin: 0 100px auto 100px;
-}
-
 
 hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #c9d6df;
-  border-width: 6px;
-  width: 10%;
-  margin: 80px auto 80px auto;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
-.subtitle-main-page{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
-  font-weight:  bold;
-  color: #66BFBF;
+p{
   line-height: 2;
-  margin: 0 auto 50px auto;
+}
+.subtitle-main-page{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 .top-container{
@@ -55,10 +52,18 @@ hr{
   padding-top: 80px;
 }
 
+.intro{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
 
+.middle-container{
+margin: 100px 0;
+}
 .bottom-container{
-  margin: 20px auto 20px auto;
   background: #66BFBF;
+  padding: 45px 0 15px;
 }
 
 .myskills-h2{
@@ -86,7 +91,6 @@ hr{
   width: 50%;
   margin: 80px auto 80px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .qaengineer-img{
@@ -103,29 +107,48 @@ hr{
   margin-left: 30px;
 }
 
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .contactme-btn {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #0fa6ac;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-radius: 10px;
-
+ background: #11CDD4;
+ background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+ background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+ background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+ background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+ background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+ background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+ border-radius: 8px;
+ color: #AFFFFF;
+ font-family: Arial;
+ font-size: 15px;
+ font-weight: 100;
+ padding: 10px;
+ box-shadow: 1px 1px 5px 0px #11999E;
+ text-shadow: 1px 1px 5px #666666;
+ border: 0;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;
+ text-align: center;
 }
 
+    
 .contactme-btn:hover {
-   border-radius: 20px;
-   text-decoration:  underline;
+border: 0;
+background: #30E3CB;
+background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+border-radius: 8px;
 }
 
-.btn-text{
-  padding: 10px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
 .footer-link{
   color: #11999E;
-  margin: 20px auto 20px auto;
 }
 
 .copyright-page{
